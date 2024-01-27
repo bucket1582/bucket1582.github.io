@@ -12,14 +12,15 @@
     "start": "npm run watch:eleventy & npm run watch:sass",
     "build": "npm run build:eleventy & npm run build:sass",
     "build:sass:prod": "sass src/static/scss:public/static/css --style compressed",
-  "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-  "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
+    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+    "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "2.0.1",
+    "bulma": "^0.9.4",
     "sass": "1.70.0"
   }
 }
