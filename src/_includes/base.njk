@@ -19,8 +19,16 @@
     <div class="content">
       {% block content %} {{ content | safe }} {% endblock %}
     </div>
-    <figure class="image is-128x128">
-      <img src="../imgs/bucket_white.png">
-    </figure>
+    
+    <footer class="footer is-flex-align-items-flex-end mt-auto">
+      <div class="level is-mobile-centered is-desktop-centered">
+        <!-- left side-->
+        <div class="level-left">
+          <figure class="image is-128x128">
+            <img src="imgs/bucket_white.png">
+          </figure>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
