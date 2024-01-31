@@ -1,7 +1,7 @@
 ---
 layout: 'base.njk'
 permalink: /
-title: 'Practice'
+title: 'blog'
 ---
 
 # Hello World!
