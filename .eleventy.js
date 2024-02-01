@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.setBrowserSyncConfig({
-      files: './public/static/**',
+      files: './public/static/**/*.scss',
     });
     eleventyConfig.addPassthroughCopy("src/img");
   

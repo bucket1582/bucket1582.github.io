@@ -1,10 +1,6 @@
 ---
-layout: 'base.njk'
+layout: 'banner.njk'
 permalink: /
-title: 'blog'
+title: 'Banner Page'
 ---
-
-# Hello World!
-I don't f... know.
-
 

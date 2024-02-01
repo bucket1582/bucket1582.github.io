@@ -1,3 +1,6 @@
+@charset "utf-8";
+@import "../../../node_modules/bulma/bulma.sass";
+
 @font-face {
     font-family: 'Orbit-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
@@ -5,3 +8,13 @@
     font-style: normal;
 }
 
+$navbar-height: 4rem;
+$navbar-item-img-max-height: 3.5rem;
+$footer-padding:2rem 1rem 4rem;
+
+@import "../../../node_modules/bulma/sass/components/navbar.sass";
+
+@import "../../../node_modules/bulma/sass/layout/footer.sass";
+
+@import "../../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../../node_modules/bulma/sass/utilities/derived-variables.sass";
