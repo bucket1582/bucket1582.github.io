@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>blog</title>
+    <title>Banner Page</title>
     <link rel="stylesheet" type="text/css" href="static/css/main.css" media="screen" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
-    <nav class="navbar is-spaced is-light" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-spaced is-fixed-top is-dark" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="./img/icon/icon_basic.png" alt="bucket1582">
+          <img src="./img/icon/icon_base.svg" alt="bucket1582" width="64">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -20,8 +19,13 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
+      
       <div class="navbar-menu">
-        <div class="navbar-end">
+        <div class="navbar-start">
+          <p class="navbar-item is-size-2-desktop"> bucket1582 </p>
+        </div>
+
+        <div class="navbar-end is-size-5-desktop">
           <a class="navbar-item"> 소개 </a>
           <a class="navbar-item"> 수학 </a>
           <a class="navbar-item"> 물리 </a>
@@ -37,5 +41,28 @@
         </div>
       </div>
     </nav>
+    
+    <section class="hero is-fullheight-with-navbar is-light">
+      <div class="hero-body">
+        <div class="container has-text-centered mt-6">
+          <figure class="image is-2by1">
+            <img src="./img/banner/banner_base.svg" alt="bucket1582; 송영진의 블로그">
+          </figure>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <footer class="footer has-background-white-ter">
+          <div class="tabs is-boxed is-centered is-fullwidth is-size-6-desktop mt-auto">
+            <ul>
+              <li> <a> 깃헙 </a> </li>
+              <li> <a> 인스타그램 </a> </li>
+              <li> <a> 백준 </a> </li>
+              <li> <a> etc </a> </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </secition>
   </body>
 </html>
