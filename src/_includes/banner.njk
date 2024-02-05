@@ -7,42 +7,43 @@
     <link rel="stylesheet" type="text/css" href="{{ 'static/css/main.css' | url }}" media="screen" />
   </head>
   <body>
-    <nav class="navbar is-spaced is-fixed-top is-light" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="./img/icon/icon_base.svg" alt="bucket1582" width="256">
-        </a>
+    <section class="hero is-fullheight is-light">
+      <div class="hero-head">
+        <nav class="navbar is-spaced is-light" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img src="./img/icon/icon_base.svg" alt="bucket1582" width="256">
+            </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      
-      <div class="navbar-menu">
-        <div class="navbar-end is-size-5-desktop">
-          <a class="navbar-item"> 소개 </a>
-          <a class="navbar-item"> 수학 </a>
-          <a class="navbar-item"> 물리 </a>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> 개발 </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-end is-size-5-desktop">
+              <a class="navbar-item"> 소개 </a>
+              <a class="navbar-item"> 수학 </a>
+              <a class="navbar-item"> 물리 </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"> 개발 </a>
 
-            <div class="navbar-dropdown">
-              <a class="navbar-item"> 실질 </a>
-              <a class="navbar-item"> 재미 </a>
-              <a class="navbar-item"> 란듐 </a>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item"> 실질 </a>
+                  <a class="navbar-item"> 재미 </a>
+                  <a class="navbar-item"> 란듐 </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </nav>
       </div>
-    </nav>
-    
-    <section class="hero is-fullheight-with-navbar is-light">
       <div class="hero-body">
-        <div class="container has-text-centered mt-6">
+        <div class="container has-text-centered mt-6 is-desktop is-primary">
           <figure class="image is-2by1">
-            <img src="./img/banner/banner_base.svg" alt="bucket1582; 송영진의 블로그">
+            <img src="./img/banner/banner.svg" alt="bucket1582; 송영진의 블로그">
           </figure>
         </div>
       </div>

@@ -10,11 +10,8 @@
 
 $navbar-height: 4rem;
 $navbar-item-img-max-height: 3.5rem;
-$footer-padding:2rem 1rem 4rem;
 
 @import "../../../node_modules/bulma/sass/components/navbar.sass";
-
-@import "../../../node_modules/bulma/sass/layout/footer.sass";
 
 @import "../../../node_modules/bulma/sass/utilities/initial-variables.sass";
 @import "../../../node_modules/bulma/sass/utilities/derived-variables.sass";
