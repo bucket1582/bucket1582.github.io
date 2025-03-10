@@ -30,8 +30,13 @@ function render() {
 // Resize viewport when window size changes
 window.addEventListener('resize', () => {
     // 윈도우의 가로와 세로 길이 중 더 짧은 쪽으로 길이 통일 (1 : 1 비율)
-    canvas.width = window.innerHeight;
-    canvas.height = window.innerHeight;
+    if (window.innerHeight > window.innerWidth) {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerWidth;
+    } else {
+        canvas.width = window.innerHeight;
+        canvas.height = window.innerHeight;
+    }
 
     render();
 });
