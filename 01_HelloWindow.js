@@ -35,7 +35,7 @@ window.addEventListener('resize', () => {
         canvas.height = window.innerWidth;
     } else {
         canvas.width = window.innerHeight;
-        canvas.height = window.innerWidth;
+        canvas.height = window.innerHeight;
     }
 
     render();
