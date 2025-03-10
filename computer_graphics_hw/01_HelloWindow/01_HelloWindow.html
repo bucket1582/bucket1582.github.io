@@ -1,0 +1,26 @@
+<!--
+01_HelloWindow  
+1) Create a window and clear it with a color.
+2) UTF-8 character set: 4 bytes (32 bits) 로 구성된 Unicode, 
+   첫 byte는 ASCII와 동일, 
+   나머지 3 bytes는 전세계 문자, 심볼 등을 표현하기 위해 사용
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* scrollbar 제거 */
+        }
+    </style>
+    <title>01_HelloWindow</title>
+</head>
+<body>
+    <canvas id="glCanvas"></canvas>
+    <script src="01_HelloWindow.js"></script>
+</body>
+</html>
