@@ -38,6 +38,9 @@ window.addEventListener('resize', () => {
         canvas.height = window.innerHeight;
     }
 
+    canvas.width = default_width;
+    canvas.height = default_height;
+
     render();
 });
 
