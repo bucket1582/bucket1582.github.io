@@ -189,7 +189,7 @@ async function main() {
         // 셰이더 초기화
         shader = await initShader();
         
-        // 나머지 초기화
+        // 배포 문제 때문에 추가한 comment
         setupCanvas();
         setupTriggers();
         setupText(canvas, "Use arrow keys to move the rectangle", 1);
