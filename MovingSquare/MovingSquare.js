@@ -80,22 +80,22 @@ function setupTriggers() {
 
     window.addEventListener('keyup', (event) => {
         // 아래 if condition을 if (event.key in keys)로 간단히 할 수도 있음
-        if (event.key === "ArrowUp") {
+        if (event.key === "ArrowUp" && pressing === UP) {
             pressing = null;
             return;
         }
 
-        if (event.key === "ArrowDown") {
+        if (event.key === "ArrowDown" && pressing === DOWN) {
             pressing = null;
             return;
         }
 
-        if (event.key === "ArrowRight") {
+        if (event.key === "ArrowRight" && pressing === RIGHT) {
             pressing = null;
             return;
         }
 
-        if (event.key === "ArrowLeft") {
+        if (event.key === "ArrowLeft" && pressing === LEFT) {
             pressing = null;
             return;
         }
