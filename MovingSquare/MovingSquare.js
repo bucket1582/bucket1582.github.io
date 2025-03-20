@@ -5,7 +5,7 @@
 2) Separate the shader sources as independent files (see shVert.glsl and shFrag.glsl)
 3) Introduce the second attribute (colors) in the vertex data 
 -----------------------------------------------------------------------------*/
-import { resizeAspectRatio } from '../util/util.js';
+import { resizeAspectRatio, setupText } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
 
 // Global variables
@@ -192,6 +192,7 @@ async function main() {
         // 나머지 초기화
         setupCanvas();
         setupTriggers();
+        setupText(canvas, "Use arrow keys to move the rectangle", 1);
         vao = setupBuffers(shader);
         shader.use();
         
