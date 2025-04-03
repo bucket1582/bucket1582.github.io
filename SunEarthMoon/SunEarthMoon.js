@@ -1,21 +1,4 @@
-/*-------------------------------------------------------------------------
-08_Transformation.js
-
-canvas의 중심에 한 edge의 길이가 0.3인 정사각형을 그리고, 
-이를 크기 변환 (scaling), 회전 (rotation), 이동 (translation) 하는 예제임.
-    T는 x, y 방향 모두 +0.5 만큼 translation
-    R은 원점을 중심으로 2초당 1회전의 속도로 rotate
-    S는 x, y 방향 모두 0.3배로 scale
-이라 할 때, 
-    keyboard 1은 TRS 순서로 적용
-    keyboard 2는 TSR 순서로 적용
-    keyboard 3은 RTS 순서로 적용
-    keyboard 4는 RST 순서로 적용
-    keyboard 5는 STR 순서로 적용
-    keyboard 6은 SRT 순서로 적용
-    keyboard 7은 원래 위치로 돌아옴
----------------------------------------------------------------------------*/
-import { resizeAspectRatio, setupText, updateText, Axes } from '../util/util.js';
+import { resizeAspectRatio } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
 
 let isInitialized = false;

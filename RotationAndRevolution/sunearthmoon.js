@@ -1,4 +1,4 @@
-import { resizeAspectRatio, setupText, updateText, Axes } from '../util/util.js';
+import { resizeAspectRatio, Axes } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
 
 let isInitialized = false;
