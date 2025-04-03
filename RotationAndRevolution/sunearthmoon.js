@@ -1,5 +1,5 @@
-import { resizeAspectRatio, setupText, updateText, Axes } from './util/util.js';
-import { Shader, readShaderFile } from './util/shader.js';
+import { resizeAspectRatio, setupText, updateText, Axes } from '../util/util.js';
+import { Shader, readShaderFile } from '../util/shader.js';
 
 let isInitialized = false;
 const canvas = document.getElementById('glCanvas');
@@ -129,7 +129,7 @@ function render(currentTime) {
     mat4.rotate(T, T, earthRotationAngle, [0, 0, 1]);
     mat4.scale(T, T, [0.1, 0.1, 1]);
     shader.setMat4("u_model", T);
-    shader.setVec4("u_color", 0.0, 0.0, 1.0, 1.0);
+    shader.setVec4("u_color", 0.0, 1.0, 1.0, 1.0);
 
     gl.bindVertexArray(null);
 
