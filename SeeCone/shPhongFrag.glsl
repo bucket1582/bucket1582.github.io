@@ -37,7 +37,7 @@ void main() {
     
     // specular
     vec3 viewDir = normalize(u_viewPos - fragPos);
-    vec3 reflectDir = reflect(lightDir, norm);
+    vec3 reflectDir = reflect(-lightDir, norm);
     float spec;
     if (dotNormLight > 0.0) {
         spec = pow(max(dot(viewDir, reflectDir), 0.0), material.shininess);
