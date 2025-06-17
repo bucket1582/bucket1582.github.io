@@ -1,0 +1,272 @@
+{
+  "default": {
+    "visible": [
+      "fire",
+      "Ceiling",
+      "poster_518002",
+      "poster_518001",
+      "moderncity_518005",
+      "moderncity_518005_1",
+      "Floor001",
+      "Floor002",
+      "fire001",
+      "Leftwall004",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP001",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP002",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP003",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP004",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP005",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP006",
+      "safecircleline_LP2SAFECIRCLELINE_LPSAFECIRCLELINE_GROUP007",
+      "Ceiling1",
+      "Humano_Anim_041-5056-W2_01_LOD0002",
+      "Wall_518",
+      "elevator_wall",
+      "평면035",
+      "평면035_1",
+      "Wall_518001",
+      "Wall_518002",
+      "Wall_518003",
+      "Wall_518004",
+      "Wall_518005",
+      "Wall_518006",
+      "Wall_518007",
+      "Door_518",
+      "Door_518001",
+      "Door_518002",
+      "Door_518003",
+      "Door_518004",
+      "Door_518005",
+      "elevatorLetter",
+      "Circle",
+      "Circle_1",
+      "Circle_2",
+      "Circle_3",
+      "Circle001",
+      "Circle001_1",
+      "Circle001_2",
+      "Circle001_3",
+      "Circle002",
+      "Circle002_1",
+      "Circle002_2",
+      "Circle002_3",
+      "Circle003",
+      "Circle003_1",
+      "Circle003_2",
+      "Circle003_3",
+      "Circle004",
+      "Circle004_1",
+      "Circle004_2",
+      "Circle004_3",
+      "Circle005",
+      "Circle005_1",
+      "Circle005_2",
+      "Circle005_3",
+      "Circle006",
+      "Circle006_1",
+      "Circle006_2",
+      "Circle006_3",
+      "Circle009",
+      "Circle009_1",
+      "Circle009_2",
+      "Circle009_3",
+      "Letter",
+      "Letter001",
+      "Letter002",
+      "Letter003",
+      "Letter004",
+      "Letter005",
+      "Letter006",
+      "Letter007",
+      "name_tag_518",
+      "name_tag_518001",
+      "name_tag_518003",
+      "name_tag_518004",
+      "name_tag_518005",
+      "name_tag_518006",
+      "name_tag_518008",
+      "name_tag_518009",
+      "name_tag_518010",
+      "name_tag_518011",
+      "name_tag_518013",
+      "name_tag_518014",
+      "name_tag_518015",
+      "name_tag_518016",
+      "poster_518007",
+      "floorExtended_518",
+      "floorExtended_518001",
+      "floorExtended_518002",
+      "floorExtended_518003",
+      "floorExtended_518004",
+      "floorExtended_518005",
+      "Architecture",
+      "Wall_518008",
+      "Door_518006",
+      "Wall_518009",
+      "Door_518007",
+      "Wall_518010",
+      "Door_518008",
+      "floorExtended_518006",
+      "floorExtended_518007",
+      "floorExtended_518008",
+      "Floor",
+      "Cube005",
+      "Cube005_1",
+      "Cube005_2",
+      "Cube001",
+      "Cube001_1",
+      "Cube001_2",
+      "Cube002",
+      "Cube002_1",
+      "Cube002_2",
+      "Cube003",
+      "Cube003_1",
+      "Cube003_2",
+      "Cube006",
+      "Cube006_1",
+      "Cube006_2",
+      "Cube007",
+      "Cube007_1",
+      "Cube007_2",
+      "Fire_Alarm_V1",
+      "Cylinder",
+      "Cylinder_1",
+      "Fire_Alarm_Case",
+      "Fire_Alarm_Case_Accents",
+      "Fire_Alarm_Case_Accents_2",
+      "Fire_Alarm_Glass",
+      "Fire_Alarm_Reflectors",
+      "Fire_Alarm_Sensors",
+      "FireAlarm_Interior",
+      "Sphere001",
+      "Sphere001_1",
+      "FireAlarm_Text",
+      "Fire_Alarm_V1001",
+      "Fire_Alarm_V1002",
+      "Fire_Alarm_V1003",
+      "Fire_Alarm_V1004",
+      "Fire_Alarm_V1005",
+      "Door_Window_Side_Full",
+      "Double_Door_Left",
+      "Double_Door_Right",
+      "Door_Window_Side_Full001",
+      "Double_Door_Left001",
+      "Double_Door_Right001",
+      "Door_Window_Side_Full002",
+      "Double_Door_Left002",
+      "Double_Door_Right002",
+      "Wooden_door",
+      "Wooden_door001",
+      "Wooden_door002",
+      "Wooden_door003",
+      "elevatorfrontwall",
+      "elevatorfrontwall001",
+      "평면",
+      "평면001",
+      "CUBezierCurve001",
+      "CUBezierCurve001_1",
+      "body",
+      "Circle007",
+      "Circle007_1",
+      "Circle007_2",
+      "Circle007_3"
+    ]
+  },
+  "index0": {
+    "add": [
+      "error1_change"
+    ],
+    "delete": [
+      "error1_before"
+    ],
+    "conditional": []
+  },
+  "index1": {
+    "add": [
+      "error2_change"
+    ],
+    "delete": [
+      "error2_before"
+    ],
+    "conditional": []
+  },
+  "index2": {
+    "add": [
+      "hand_mirror",
+      "hand_mirror_1",
+      "hand_mirror_2",
+      "hand_mirror_3"
+    ],
+    "delete": [
+      "Circle007",
+      "Circle007_1",
+      "Circle007_2",
+      "Circle007_3"
+    ],
+    "conditional": []
+  },
+  "index3": {
+    "add": [
+      "error4_change"
+    ],
+    "delete": [
+   
+    ],
+    "conditional": []
+  },
+  "index4": {
+    "add": [
+      "error5_change"
+    ],
+    "delete": [
+      "error5_before"
+    ],
+    "conditional": []
+  },
+  "index5": {
+    "add": [
+      "error6_change"
+    ],  
+    "delete": [
+      "error6_before"
+    ],
+    "conditional": []
+  },
+  "index6": {
+    "add": [
+      "error7_change"
+    ],
+    "delete": [
+      "error7_before"
+    ],
+    "conditional": []
+  },
+  "index7": {
+    "add": [
+      "error8_change"
+    ],
+    "delete": [
+      "error8_before"
+    ],
+    "conditional": []
+  },
+  "index8": {
+    "add": [
+      "error10_change"
+    ],
+    "delete": [
+      "error10_before"
+    ],
+    "conditional": []
+  },
+  "index9": {
+    "add": [
+      "error11_change"
+    ],
+    "delete": [
+      "error11_before"
+    ],
+    "conditional": []
+  }
+}
