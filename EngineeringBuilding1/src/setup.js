@@ -519,7 +519,7 @@ async function setupShaders(camera, scene, renderer, ambient) {
     const nightVisionRenderer = new NightVisionRenderer(
         renderer.domElement.width, renderer.domElement.height, renderer, scene, camera, ambient,
         await loadShaderFile("../shader/nightVision/nightVisionVertexShader.glsl"),
-        await loadShaderFile("../shader/nightVision/nightvisionFragmentShader.glsl")
+        await loadShaderFile("../shader/nightVision/nightVisionFragmentShader.glsl")
     );
     
     return nightVisionRenderer;
