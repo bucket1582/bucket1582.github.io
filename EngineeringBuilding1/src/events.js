@@ -21,14 +21,18 @@ export async function transitionToNightVision(lightSystem, nightVision, fpc, fai
     await lightSystem.flicker([500, 250, 100], [500, 250, 100], [0.3, 0.8, 0.3]);
     await lightSystem.turnOffGradually(500, 50);
     
+    waitingForDeath = true;
+
     // Death
     Schedule.sleep(300 * 1000).then(
         () => {
+            if (!waitingForDeath) {
+                return;
+            }
+
             nightVision.graduallyDying();            
         }
     );
-
-    waitingForDeath = true;
 
     // Breathing
     Schedule.sleep(318 * 1000).then(
@@ -47,6 +51,7 @@ export async function transitionToNightVision(lightSystem, nightVision, fpc, fai
             if (!waitingForDeath) {
                 return;
             }
+
             forceFailure = true;
             fpc.camera.position.set(90, 300, 0);
             failureCallback();
@@ -69,8 +74,7 @@ export async function transitionToNightVision(lightSystem, nightVision, fpc, fai
  */
 export async function nextLevelTransition(lightSystem, nightVision, elevator, elevator2, fpc, abnormalPhenomenon, returnedToStart) {
     if (levelPhase == LevelPhase.ELEVATOR_LOADING) return;
-    waitingForDeath = false;
-
+    
     // 엘레베이터 내에서는 이동 불가
     fpc.canMove = false;
 
@@ -86,6 +90,8 @@ export async function nextLevelTransition(lightSystem, nightVision, elevator, el
     if (forceFailure) {
         isCurrentStageFail = true;
     }
+    waitingForDeath = false;
+    forceFailure = false;
 
     // Nightvision 처리
     if (nightVision.isCurrentlyNightVision) {
