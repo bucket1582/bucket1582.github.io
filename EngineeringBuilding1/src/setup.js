@@ -388,7 +388,7 @@ async function loadElevator2(camera, scene, elevatorLight) {
 
 async function loadHallway(camera, scene) {
     // 복도 모델 추가
-    const hallway = await loadGLTF("../model/Hallway/Hallway.gltf");
+    const hallway = await loadGLTF("../model/hallway/Hallway.gltf");
     hallway.scene.scale.set(70, 70, 70);
     hallway.scene.position.set(-4750, 0, 980);
     hallway.scene.rotation.y = Math.PI/2;
