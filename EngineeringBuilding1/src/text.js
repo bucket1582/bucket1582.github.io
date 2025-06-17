@@ -32,7 +32,7 @@ export function initializeTexts(canvas) {
     gameDescription2.style.top = '40%';
     gameDescription3.style.top = '50%';
     gameDescription4.style.top = '60%';
-    gameDescription4.style.top = '70%';
+    gameDescription5.style.top = '70%';
     startInstruction.style.top = '80%';
 
     return {
