@@ -8,9 +8,10 @@ export function initializeTexts(canvas) {
     const gameDescription1 = setupText(canvas, `공학관에서 일어나는 미스터리한 사건을 조사하세요.`, 2);
     const gameDescription2 = setupText(canvas, `엘리베이터와 복도에서 이상한 현상들을 발견할 수 있습니다.`, 3);
     const gameDescription3 = setupText(canvas, `야간 투시경을 사용하여 어둠 속에서 숨겨진 단서를 찾으세요.`, 4);
-    const gameDescription4 = setupText(canvas, '이상 현상이 없으면 현재 타고 계신 엘레베이터를, 있다면 반대쪽 엘레베이터를 이용해주세요.', 5)
-    const startInstruction = setupText(canvas, `마우스를 클릭하면 게임이 시작됩니다!`, 6);
-    gameDescriptionTexts.push(gameTitle, gameDescription1, gameDescription2, gameDescription3, gameDescription4, startInstruction);
+    const gameDescription4 = setupText(canvas, '이상 현상이 없으면 현재 타고 계신 엘레베이터를', 5);
+    const gameDescription5 = setupText(canvas, '있다면 반대쪽 엘레베이터를 이용해주세요.', 6);
+    const startInstruction = setupText(canvas, `마우스를 클릭하면 게임이 시작됩니다!`, 7);
+    gameDescriptionTexts.push(gameTitle, gameDescription1, gameDescription2, gameDescription3, gameDescription4, gameDescription5, startInstruction);
 
     const controlTitle = setupText(canvas, `[조작 방법]`, 1);
     const moveControl = setupText(canvas, `WASD : 이동`, 2);
@@ -31,7 +32,8 @@ export function initializeTexts(canvas) {
     gameDescription2.style.top = '40%';
     gameDescription3.style.top = '50%';
     gameDescription4.style.top = '60%';
-    startInstruction.style.top = '70%';
+    gameDescription4.style.top = '70%';
+    startInstruction.style.top = '80%';
 
     return {
         gameDescriptionTexts,
